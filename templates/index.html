@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Graphing with Python</title>
+        <link rel="stylesheet" type="text/css" href="{{  url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <form action="/process" method="post">
+                <h1>Plot Your Points</h1>
+                <p>x-axis: <input type="text" name="x"></p>
+                <p>y-axis: <input type="text" name="y"></p>
+                <input type="submit" name="submit" value="Plot">
+            </form>
+        </div>
+    </body>
+</html>
